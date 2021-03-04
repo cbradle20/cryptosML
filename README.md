@@ -21,7 +21,7 @@ Deeper project description tbd blah blah super interesting project so fun loved 
 3. When on the main page of the repository click the green code button and hit open in github desktop
 4. This will pull every single file in the repository when you clone it 
 5. Open github desktop
-6. Change your editor preferences to Visual Studio Code and click open in Visual Studio Code
+6. Change your editor preferences to Visual Studio Code and click "open in Visual Studio Code"
 7. Within the Python file open a terminal window(google how to do this if you cannot figure it out)
 8. Type into the terminal window "python3 cryptos.py"
 9. Now your csv file should be updated with that days data
