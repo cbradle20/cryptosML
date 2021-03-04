@@ -19,7 +19,8 @@ for i in data:
     oned = i.pop("1d")
     i.update(oned)
 df = pd.DataFrame(data)
-    
+df["price_change_pct"] = pd.to_numeric(df["price_change_pct"])
+df["price_change_pct"] =  df["price_change_pct"].multiply(100)
 print(df)
 
 df.to_csv("cryptos.csv")
