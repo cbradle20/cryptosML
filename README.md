@@ -17,11 +17,15 @@ Deeper project description tbd blah blah super interesting project so fun loved 
 
 ## How to Run
 1. Download a text editor, vscode is probably the best one(you shouldnt have to download python if you get vscode)
-2. Create a new folder that will contain this python file and an empty excel file name "cryptos.csv" MAKE SURE IT IS SAVED AS CSV!
-3. Open vscode and hit open workspace and open the folder with this file and the csv file
-4. Open terminal within vscode (google this if you cant figure it out)
-5. Type python3 crypto.py into the command line in the terminal, hit enter
-6. Now the csv should contain values and the program should have ran if you get errors just send them to me Ill show you how to fix it 
+2. Download Github desktop
+3. When on the main page of the repository click the green code button and hit open in github desktop
+4. This will pull every single file in the repository when you clone it 
+5. Open github desktop
+6. Change your editor preferences to Visual Studio Code and click open in Visual Studio Code
+7. Within the Python file open a terminal window(google how to do this if you cannot figure it out)
+8. Type into the terminal window "python3 cryptos.py"
+9. Now your csv file should be updated with that days data
+10. If you run into errors let me know I can help you with them
 
 
 ## Changing the Coins 
