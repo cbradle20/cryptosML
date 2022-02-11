@@ -21,7 +21,10 @@ for i in data:
 df = pd.DataFrame(data)
 df["price_change_pct"] = pd.to_numeric(df["price_change_pct"])
 df["price_change_pct"] =  df["price_change_pct"].multiply(100)
-print(df)
+
+df2 = df[["id", "price_change_pct"]]
+df2 = df2.sort_values("id", ascending = True)
+print(df2)
 
 df.to_csv("cryptos.csv")
 
